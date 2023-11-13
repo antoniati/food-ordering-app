@@ -24,7 +24,7 @@ const HeroSection = () => {
                     />
                 </div>
             </div>
-            <div className={style.heroImage}>
+            <div className={style.heroSectionImage}>
                 <Image
                     src={'/pizza.png'}
                     layout={'fill'}

@@ -19,5 +19,5 @@
 }
 
 .headerMain nav ul li:last-child {
-    @apply w-28 py-2 flex items-center justify-center text-white font-semibold  tracking-wider bg-dark-orange hover:bg-dark-red rounded-full cursor-pointer transition-all duration-300 border-2 border-dark-red hover:tracking-widest hover:font-bold hover:shadow-md;
+    @apply w-28 py-2 flex items-center justify-center text-white font-semibold  tracking-wider bg-dark-orange hover:border-dark-red rounded-full cursor-pointer transition-all duration-300 border-2 border-dark-orange hover:shadow-md;
 }

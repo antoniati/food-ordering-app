@@ -1,0 +1,11 @@
+.headerSection  {
+    @apply w-full p-5 flex flex-col gap-2 items-center justify-center;
+}
+
+.headerSection span {
+    @apply uppercase text-gray-500 font-semibold leading-4;
+}
+
+.headerSection b {
+    @apply text-dark-orange text-4xl italic;
+}

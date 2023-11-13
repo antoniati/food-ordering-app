@@ -1,0 +1,23 @@
+.headerMain {
+    @apply flex items-center justify-between;
+}
+
+.headerMain section {
+    @apply flex items-center gap-2;
+}
+
+.headerMain section h1 {
+    @apply text-dark-orange;
+}
+
+.headerMain nav ul {
+    @apply flex items-center gap-8;
+}
+
+.headerMain nav ul li {
+    @apply text-gray-500 font-semibold tracking-wider;
+}
+
+.headerMain nav ul li:last-child {
+    @apply w-28 py-2 flex items-center justify-center text-white font-semibold  tracking-wider bg-dark-orange hover:bg-dark-red rounded-full cursor-pointer transition-all duration-300 border-2 border-dark-red hover:tracking-widest hover:font-bold hover:shadow-md;
+}

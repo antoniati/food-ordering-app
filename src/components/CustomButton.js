@@ -15,6 +15,7 @@ const CustomButton = ({
         styles.customButton, // classe padrão do botão
         {
             [styles.orangeButton]: buttonStyle === "orange",
+            [styles.cartButton]: buttonStyle === "add-cart",
         }
     );
 

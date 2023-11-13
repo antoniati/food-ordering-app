@@ -15,7 +15,7 @@
 }
 
 .heroContent p {
-    @apply text-3xl tracking-wide leading-10;
+    @apply text-gray-900 text-3xl tracking-wide leading-10;
 }
 
 .heroContent div {

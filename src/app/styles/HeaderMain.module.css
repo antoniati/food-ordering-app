@@ -3,11 +3,11 @@
 }
 
 .headerMain section {
-    @apply flex items-center gap-2;
+    @apply flex items-center gap-16;
 }
 
 .headerMain section h1 {
-    @apply text-dark-orange;
+    @apply text-dark-orange flex items-center gap-2;
 }
 
 .headerMain nav ul {
@@ -15,9 +15,12 @@
 }
 
 .headerMain nav ul li {
-    @apply text-gray-500 font-semibold tracking-wider;
+    @apply text-lg text-gray-500 font-semibold tracking-wider;
 }
 
-.headerMain nav ul li:last-child {
-    @apply w-28 py-2 flex items-center justify-center text-white font-semibold  tracking-wider bg-dark-orange hover:border-dark-red rounded-full cursor-pointer transition-all duration-300 border-2 border-dark-orange hover:shadow-md;
+.loginSection {
+    @apply text-lg text-gray-500 font-semibold tracking-wider;
+}
+.loginSection span:last-child {
+    @apply px-8 py-2 bg-dark-orange text-white rounded-full border-2 hover:border-dark-red shadow-md transition-all duration-300;
 }

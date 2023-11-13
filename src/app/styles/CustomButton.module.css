@@ -5,3 +5,7 @@
 .orangeButton {
     @apply border-dark-orange bg-dark-orange hover:border-dark-red text-white font-semibold;
 }
+
+.cartButton {
+    @apply py-2 text-base border-dark-orange bg-dark-orange hover:border-dark-red text-white font-semibold;
+}

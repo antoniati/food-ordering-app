@@ -11,7 +11,7 @@ const HeroSection = () => {
                     Tudo fica melhor <br></br>
                     com uma <span>Pizza</span>.
                 </h1>
-                <p>Experimente a alegria em cada fatia. Nossas pizzas oferecem o sabor que transformam suas noites em momentos incríveis com à familia.</p>
+                <p>Experimente a alegria em cada fatia. Nossas pizzas oferecem o sabor que transformam suas refeições em momentos incríveis com à familia.</p>
                 <div>
                     <CustomButton
                         buttonText={"Peça Já"}

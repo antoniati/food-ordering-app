@@ -1,18 +1,15 @@
+import AboutSection from '@/components/AboutSection'
 import HeaderMain from '@/components/HeaderMain'
-import HeaderSection from '@/components/HeaderSection'
 import HeroSection from '@/components/HeroSection'
+import MenuSection from '@/components/MenuSection'
 
 export default function Home() {
   return (
     <>
       <HeaderMain />
       <HeroSection />
-      <section>
-        <HeaderSection
-          subTitle={"Conheça nosso"}
-          mainTitle={"Menu"}
-        />
-      </section>
+      <MenuSection />
+      <AboutSection />
     </>
   )
 }

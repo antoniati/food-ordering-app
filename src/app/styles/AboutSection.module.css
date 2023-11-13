@@ -1,0 +1,6 @@
+.aboutSectionContent {
+    @apply w-full flex flex-col items-center gap-5;
+}
+.aboutSectionContent p {
+    @apply text-xl text-center w-9/12 leading-9;
+}

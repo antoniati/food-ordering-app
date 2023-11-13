@@ -1,0 +1,19 @@
+.menuItem {
+    @apply w-80 h-card p-5 flex flex-col items-center bg-slate-100 hover:bg-white rounded-md shadow-md gap-5 transition-all duration-300;
+}
+
+.menuItemContent {
+    @apply flex flex-col gap-2 items-center;
+}
+
+.menuItemContent h3 {
+    @apply text-center;
+}
+
+.menuItemContent p {
+    @apply text-center text-gray-900;
+}
+
+.menuItem h4 span {
+    @apply text-lg;
+}

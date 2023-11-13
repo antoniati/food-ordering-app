@@ -1,0 +1,11 @@
+.footer {
+    @apply w-full flex flex-col gap-2 items-center mt-16 p-5 text-dark-brown;
+}
+
+.footer h1 {
+    @apply flex items-center gap-2;
+}
+
+.footer h3 {
+    @apply text-dark-brown;
+}

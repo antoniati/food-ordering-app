@@ -1,9 +1,10 @@
 import Image from "next/image"
+import style from "@/app/styles/Footer.module.css"
 
 const Footer = () => {
     return (
-        <footer className="w-full flex flex-col gap-2 items-center mt-16 p-5 text-dark-brown">
-            <h1 className="flex items-center gap-2">
+        <footer className={style.footer}>
+            <h1>
                 <Image src={'/logo-pizza.svg'} width={36} height={36} />
                 Pizza
             </h1>

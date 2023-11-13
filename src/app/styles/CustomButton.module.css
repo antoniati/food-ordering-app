@@ -1,0 +1,7 @@
+.customButton {
+    @apply px-8 py-4 gap-10 text-2xl flex items-center justify-center rounded-full cursor-pointer border-2 tracking-wider hover:shadow-md transition-all duration-300;
+}
+
+.orangeButton {
+    @apply border-dark-orange bg-dark-orange hover:border-dark-red text-white font-semibold;
+}

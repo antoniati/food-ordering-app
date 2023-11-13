@@ -1,0 +1,27 @@
+.heroSection {
+    @apply w-full mt-10 flex;
+}
+
+.heroContent {
+    @apply flex flex-col gap-5;
+}
+
+.heroContent h1 {
+    @apply text-6xl tracking-wider;
+}
+
+.heroContent h1 span {
+    @apply text-dark-orange;
+}
+
+.heroContent p {
+    @apply text-3xl tracking-wide leading-10;
+}
+
+.heroContent div {
+    @apply flex items-center gap-3;
+}
+
+.heroSectionImage {
+    @apply w-full h-auto relative flex items-center justify-center;
+}

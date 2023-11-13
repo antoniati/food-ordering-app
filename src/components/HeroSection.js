@@ -1,17 +1,18 @@
 import Image from 'next/image'
 import CustomButton from '@/components/CustomButton'
 import { BsArrowRightCircle } from 'react-icons/bs'
+import style from '@/app/styles/HeroSection.module.css'
 
 const HeroSection = () => {
     return (
-        <section className="w-full mt-10 flex">
-            <div className="flex flex-col gap-5">
-                <h1 className="text-6xl tracking-wider">
+        <section className={style.heroSection}>
+            <div className={style.heroContent}>
+                <h1>
                     Tudo fica melhor <br></br>
-                    com uma <span className="text-dark-orange">Pizza</span>.
+                    com uma <span>Pizza</span>.
                 </h1>
-                <p className="text-3xl tracking-wide leading-10">Experimente a alegria em cada fatia. Nossas pizzas oferecem o sabor que transformam suas noites em momentos incríveis com à familia.</p>
-                <div className="flex items-center gap-3">
+                <p>Experimente a alegria em cada fatia. Nossas pizzas oferecem o sabor que transformam suas noites em momentos incríveis com à familia.</p>
+                <div>
                     <CustomButton
                         buttonText={"Peça Já"}
                         buttonStyle={"orange"}
@@ -23,7 +24,7 @@ const HeroSection = () => {
                     />
                 </div>
             </div>
-            <div className="w-full h-auto relative flex items-center justify-center">
+            <div className={style.heroImage}>
                 <Image
                     src={'/pizza.png'}
                     layout={'fill'}

@@ -1,5 +1,5 @@
 .footer {
-    @apply w-full flex flex-col gap-2 items-center mt-16 p-5 text-dark-brown;
+    @apply w-full flex flex-col gap-2 items-center mt-16 p-10 text-dark-brown border-t-2 border-gray-300;
 }
 
 .footer h1 {

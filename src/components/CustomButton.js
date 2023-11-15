@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import styles from "@/app/styles/CustomButton.module.css";
+import styles from "@/styles/CustomButton.module.css";
 
 const CustomButton = ({
     buttonType,

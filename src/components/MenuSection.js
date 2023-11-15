@@ -1,7 +1,7 @@
 import HeaderSection from '@/components/HeaderSection'
 import MenuItem from '@/components/MenuItem'
 import { menuItem } from '@/utils/contantsData'
-import style from '@/app/styles/MenuSection.module.css'
+import style from '@/styles/MenuSection.module.css'
 
 const MenuSection = () => {
     return (

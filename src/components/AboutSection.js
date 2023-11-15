@@ -1,5 +1,5 @@
 import HeaderSection from "./HeaderSection"
-import style from "@/app/styles/AboutSection.module.css"
+import style from "@/styles/AboutSection.module.css"
 
 const AboutSection = () => {
     return (

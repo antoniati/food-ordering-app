@@ -1,6 +1,9 @@
+import HeaderMain from '@/components/HeaderMain'
+import Footer from '@/components/Footer'
+
 import { Roboto } from 'next/font/google'
-import style from "@/app/styles/Layout.module.css";
-import '@/app/styles/globals.css'
+import style from "@/styles/Layout.module.css";
+import '@/styles/globals.css'
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -17,7 +20,9 @@ export default function RootLayout({ children }) {
     <html lang="pt-BR">
       <body className={roboto.className}>
         <main className={style.mainContent}>
+          <HeaderMain />
           {children}
+          <Footer />
         </main>
       </body>
     </html>

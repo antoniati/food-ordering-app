@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import CustomButton from './CustomButton'
 import { BsCartPlusFill } from 'react-icons/bs'
-import style from '@/app/styles/MenuItem.module.css'
+import style from '@/styles/MenuItem.module.css'
 
 const MenuItem = ({
     pizzaImage,

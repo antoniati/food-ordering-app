@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import CustomButton from '@/components/CustomButton'
 import { BsArrowRightCircle } from 'react-icons/bs'
-import style from '@/app/styles/HeroSection.module.css'
+import style from '@/styles/HeroSection.module.css'
 
 const HeroSection = () => {
     return (

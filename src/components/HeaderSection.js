@@ -1,4 +1,4 @@
-import style from '@/app/styles/HeaderSection.module.css'
+import style from '@/styles/HeaderSection.module.css'
 
 const HeaderSection = ({
     subTitle, mainTitle

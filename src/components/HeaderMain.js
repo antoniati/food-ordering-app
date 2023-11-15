@@ -1,15 +1,18 @@
-import Image from 'next/image'
 import Link from 'next/link'
+import Image from 'next/image'
 import { navItems } from '@/utils/contantsData'
-import style from '@/app/styles/HeaderMain.module.css'
-import CustomButton from './CustomButton'
+import style from '@/styles/HeaderMain.module.css'
 
 const HeaderMain = () => {
     return (
         <header className={style.headerMain}>
             <section>
                 <h1>
-                    <Image src={'/logo-pizza.svg'} width={36} height={36} />
+                    <Image
+                        src={'/logo-pizza.svg'}
+                        width={36}
+                        height={36}
+                    />
                     Pizza
                 </h1>
                 <nav>
@@ -33,7 +36,7 @@ const HeaderMain = () => {
                     </Link>
                 </span>
                 <span>
-                    <Link href={'/register'}>
+                    <Link href={'/cadastro'}>
                         Cadastre-se
                     </Link>
                 </span>

@@ -1,5 +1,5 @@
 .headerMain {
-    @apply flex items-center justify-between;
+    @apply w-full flex items-center justify-between;
 }
 
 .headerMain section {
